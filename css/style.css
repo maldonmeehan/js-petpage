@@ -9,29 +9,21 @@ body.reverse-color {
 
 .paragraph-select {
   border: 2px solid purple;
-  
+
 }
 
 a {
   font-style: italic;
   color: red;
 }
-.toggle-display-off {
-  display: none;
-  color: blue;
 
-}
 .toggle-display {
   color: blue;
-
-}
-
-.toggle-display-off:hover {
-  text-decoration: underline;
 }
 
 .toggle-display:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 img.animal {

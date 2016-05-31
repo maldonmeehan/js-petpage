@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $("h3.toggle-display").click(function() {
+  $("span.toggle-display").click(function() {
     $("body").toggleClass("reverse-color");
   });
 
