@@ -7,10 +7,9 @@ body.reverse-color {
   color: white;
 }
 
-body.normal-color {
-  background-color: white;
-  color: black;
-
+.paragraph-select {
+  border: 2px solid purple;
+  
 }
 
 a {

@@ -1,20 +1,19 @@
 $(document).ready(function() {
 
   $("h3.toggle-display").click(function() {
-    $("body").removeClass();
-    $("body").addClass("reverse-color");
-    $("h3").toggle();
+    $("body").toggleClass("reverse-color");
   });
-
-  $("h3.toggle-display-off").click(function() {
-    $("body").removeClass();
-    $("body").addClass("normal-color");
-    $("h3").toggle();
-  });
-
 
   $("#cat").click(function() {
     $("#fatty-katty").slideToggle();
+  });
+
+  $("#paragraph-one").click(function() {
+    $("#paragraph-one").toggleClass("paragraph-select");
+  });
+
+  $("#paragraph-two").click(function(){
+    $("#paragraph-two").toggleClass("paragraph-select");
   });
 
   $("#goat").click(function() {
