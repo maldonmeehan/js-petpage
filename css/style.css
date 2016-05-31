@@ -1,0 +1,62 @@
+body {
+  font-family: sans-serif;
+}
+
+a {
+  font-style: italic;
+  color: red;
+}
+
+
+img.animal {
+  display: none;
+  float: left;
+  width: 270px;
+  padding: 10px;
+  margin: 12px;
+}
+
+.column {
+  width: 300px;
+  float: left;
+  border: 2px solid purple;
+  padding: 4px;
+  margin: 12px;
+}
+
+.indoor p {
+  color: red;
+  background-color: yellow;
+}
+
+.outdoor p {
+  color: green;
+  background-color: gray;
+}
+
+.indoor p a {
+  font-weight: bold;
+  color: green;
+}
+
+.outdoor p a {
+  font-weight: bold;
+  color: purple;
+}
+
+/*==========================================================
+Media Queries
+==========================================================*/
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  body {
+  background: #FF6347;
+  color: #FFF;
+  }
+}
+
+@media screen and (max-width: 480 px) {
+  body {
+    background: #4682B4;
+  }
+}
