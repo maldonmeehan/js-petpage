@@ -2,11 +2,38 @@ body {
   font-family: sans-serif;
 }
 
+body.reverse-color {
+  background-color: black;
+  color: white;
+}
+
+body.normal-color {
+  background-color: white;
+  color: black;
+
+}
+
 a {
   font-style: italic;
   color: red;
 }
+.toggle-display-off {
+  display: none;
+  color: blue;
 
+}
+.toggle-display {
+  color: blue;
+
+}
+
+.toggle-display-off:hover {
+  text-decoration: underline;
+}
+
+.toggle-display:hover {
+  text-decoration: underline;
+}
 
 img.animal {
   display: none;
